@@ -1,0 +1,61 @@
+#pragma once
+
+enum struct ScriptTag
+{
+	MESSAGE_CLICK_WAIT,		//<mw>
+	MESSAGE_RENEW_PAGE,		//<mp>
+	MESSAGE_WINDOW_SET,		//<md>
+	MESSAGE_WINDOW_DELETE,
+	NAME_SET,				//<ns>
+	NAME_DELETE,			//<nd>
+	BACK_GROND_SET,			//<bgs>
+	BACK_GROND_DELETE,		//<bgd>
+	CG_SET,
+	CG_DELETE,
+	SCREEN_EFFECT_SET,
+	SCREEN_EFFECT_DELETE,
+	ITEM_SET,
+	ITEM_DELETE,
+	CHARA_SET,				//<c0s>
+	CHARA_DELETE,			//<c0d>
+	CHARA_ANIMATION,
+	SELECT,
+	CHOISE,
+	IF,
+	ELSEIF,
+	ELSE,
+	ENDIF,
+	JUMP,
+	JUMP_TAG,
+	BGM,
+	BGM_STOP,
+	SE,
+	VOICE,
+	STAND_FLAG,
+	CANCEL_FLAG,
+	WAIT_TIMER,
+	CLICK,
+	CONSOLE_SET,
+	CONSOLE_DELETE,
+	PRINTF,
+	FADE_IN,
+	FADE_OUT,
+	TRANSIT_SCENE,
+	SIZE
+};
+
+enum struct Formation
+{
+	CENTER,
+	LEFT,
+	RIGHT
+};
+
+enum struct Direction
+{
+	DOWN,
+	LEFT,
+	RIGHT,
+	UP,
+	SIZE
+};
